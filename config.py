@@ -10,11 +10,11 @@ load_dotenv()
 # ── Core bot config ────────────────────────────────────────────────────────────
 API_ID = int(getenv("API_ID", 38056031))
 API_HASH = getenv("API_HASH", "e5c735453082183ed853ccdc97d96e65")
-BOT_TOKEN = "8898649954:AAFaIrBv388x-txUWWgGREN1EKLF4lspHQc"
+BOT_TOKEN = "8947948085:AAEX3zPknbDc4S2HmcQ1fsaQyjPAb6XUTP8"
 
 OWNER_ID = int(getenv("OWNER_ID", "6334669810"))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "@legendof1st")
-BOT_USERNAME = getenv("BOT_USERNAME", "@Musictelugusong_bot")
+BOT_USERNAME = getenv("BOT_USERNAME", "@Musisarena_bot")
 BOT_NAME = getenv("BOT_NAME", "˹gun park ✘ music˼ ♪")
 ASSUSERNAME = getenv("ASSUSERNAME", "musicrevanth")
 
