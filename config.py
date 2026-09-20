@@ -10,7 +10,7 @@ load_dotenv()
 # ── Core bot config ────────────────────────────────────────────────────────────
 API_ID = int(getenv("API_ID", 38056031))
 API_HASH = getenv("API_HASH", "e5c735453082183ed853ccdc97d96e65")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = "8898649954:AAFaIrBv388x-txUWWgGREN1EKLF4lspHQc"
 
 OWNER_ID = int(getenv("OWNER_ID", "6334669810"))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "@legendof1st")
@@ -19,7 +19,7 @@ BOT_NAME = getenv("BOT_NAME", "˹gun park ✘ music˼ ♪")
 ASSUSERNAME = getenv("ASSUSERNAME", "musicrevanth")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = "mongodb+srv://rupamedical:dQv9oKG7QK93BkIh@james.oufkybu.mongodb.net/?appName=james"
 LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
@@ -62,7 +62,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "22b6125bfe224587b722d6815002db2
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc68624851e9773")
 
 # ── Session strings (optional) ─────────────────────────────────────────────────
-STRING1 = getenv("STRING1")
+STRING1 = "BQJEsF8AhBFqB2UjzyXaQKbunDxf4Um2U0a3KhHTp_S8UIVJ9eNIRGHVg_8scXP3XOAGSqZ1sPS4A3uPLTElBvnWjWiMPztMcfJcizLeKG2qqVAKKslgseGtfcXxX4qNXH4euDPhq5mGDxq8CnYHN_5_uqi-GKvE_acxXvXRBUZfL99h5YWigdOo8NHYqhu2Rx5keIbcwyBfnyyWP3LTorUulGQfqrx_NV0LKzwsLofyppY-KrTKyVkUqNBOTyIZe-QrYXOq2F6yOIvxtY4NlojpnUr5hBdx9q1HAYyXKm8QX4ZvkWmAo85gCcmHovTs0WB2jMPf75jcjixbEPQOoknPv4WwsgAAAAF5k2PyAA"
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
