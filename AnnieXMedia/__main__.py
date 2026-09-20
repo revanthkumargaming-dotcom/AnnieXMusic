@@ -1,4 +1,4 @@
-﻿# Authored By Certified Coders © 2025
+# Authored By Certified Coders © 2025
 import asyncio
 import importlib
 
@@ -13,6 +13,7 @@ from AnnieXMedia.plugins import ALL_MODULES
 from AnnieXMedia.utils.database import get_banned_users, get_gbanned
 from AnnieXMedia.utils.cookie_handler import fetch_and_store_cookies
 from config import BANNED_USERS
+from AnnieXMedia.webserver import start_web_server
 
 
 async def init():
@@ -76,4 +77,5 @@ async def init():
 
 
 if __name__ == "__main__":
+    start_web_server()
     asyncio.get_event_loop().run_until_complete(init())
