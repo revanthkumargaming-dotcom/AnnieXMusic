@@ -20,7 +20,7 @@ ASSUSERNAME = getenv("ASSUSERNAME", "musicrevanth")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = "mongodb+srv://rupamedical:dQv9oKG7QK93BkIh@james.oufkybu.mongodb.net/?appName=james"
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002146085685))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
