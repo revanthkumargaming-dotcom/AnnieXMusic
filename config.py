@@ -8,9 +8,9 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 27798659))
-API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
-BOT_TOKEN = getenv("8938892681:AAFQL5sERBx-RDEsykF8DHQvoJXE2z3lPs8")
+API_ID = int(getenv("API_ID", 38056031))
+API_HASH = getenv("API_HASH", "e5c735453082183ed853ccdc97d96e65")
+BOT_TOKEN = getenv("8947948085:AAFaIrBv388x-txUWWgGREN1EKLF4lspHQc")
 
 OWNER_ID = int(getenv("6334669810", ))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "@legendof1st")
@@ -47,7 +47,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Anime_Telugu_English_VS")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedDiscussion")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
